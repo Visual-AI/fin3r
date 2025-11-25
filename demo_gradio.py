@@ -36,7 +36,7 @@ model.load_state_dict(torch.hub.load_state_dict_from_url(_URL))
 
 model.eval()
 model = model.to(device)
-
+model.apply_lora(lora_path = 'checkpoints/vggt_lora.pth')
 
 # -------------------------------------------------------------------------
 # 1) Core model inference

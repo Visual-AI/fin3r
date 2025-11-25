@@ -350,6 +350,7 @@ def main():
 
     model.eval()
     model = model.to(device)
+    model.apply_lora(lora_path = 'checkpoints/vggt_lora.pth')
 
     # Use the provided image folder path
     print(f"Loading images from {args.image_folder}...")

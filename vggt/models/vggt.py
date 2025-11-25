@@ -13,6 +13,10 @@ from vggt.heads.camera_head import CameraHead
 from vggt.heads.dpt_head import DPTHead
 from vggt.heads.track_head import TrackHead
 
+from vggt.models.renorm_lora import get_renormalized_peft_model
+from peft import LoraConfig
+
+
 
 class VGGT(nn.Module, PyTorchModelHubMixin):
     def __init__(self, img_size=518, patch_size=14, embed_dim=1024,
@@ -95,3 +99,19 @@ class VGGT(nn.Module, PyTorchModelHubMixin):
 
         return predictions
 
+
+    def apply_lora(self, lora_path=None):
+        # LoRA configuration
+        lora_config = LoraConfig(
+            r=8, # LoRA rank
+            lora_alpha=8, # Scaling factor
+            target_modules=["qkv"], # Target only 'qkv' layers
+            lora_dropout=0.1, # Dropout rate
+        )
+
+        for i, block in enumerate(self.aggregator.patch_embed.blocks):
+            block.attn = get_renormalized_peft_model(block.attn, lora_config)
+
+        print(f"Applied Fin3R renormalized LoRA")
+        if lora_path is not None:
+            self.load_state_dict(torch.load(lora_path), strict=False)
