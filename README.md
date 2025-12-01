@@ -4,7 +4,7 @@
 <a href="https://drive.google.com/file/d/1G3xkyV996VRDuCgzVCMBa4dz3iCftsKI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Paper-VGGT" alt="Paper PDF">
 </a>
-<a href="https://github.com/Visual-AI/fin3r"><img src="https://img.shields.io/badge/arXiv-2503.11651-b31b1b" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2511.22429"><img src="https://img.shields.io/badge/arXiv-2503.11651-b31b1b" alt="arXiv"></a>
 <a href="https://visual-ai.github.io/fin3r/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 
 
