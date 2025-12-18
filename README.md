@@ -19,7 +19,7 @@
 
 ## Updates
 
-- [Nov. 24, 2025] We release inference code of Fin3R.
+- [Nov. 24, 2025] We release the inference code of Fin3R.
 
 
 ## Overview
@@ -99,7 +99,7 @@ Following [Pi3 evaluation code](https://github.com/yyfz/Pi3/tree/evaluation). Th
 
 ## Checkpoints
 
-Checkpoints for DUSt3R, MASt3R, CUT3R and VGGT can be found at [Google Drive](https://drive.google.com/drive/folders/1dIy2-BYqYmXqY6_im-fS4UfOczXEG0WL?usp=sharing).
+Checkpoints for DUSt3R, MASt3R, CUT3R and VGGT can be found at [Google Drive](https://drive.google.com/drive/folders/1dIy2-BYqYmXqY6_im-fS4UfOczXEG0WL?usp=sharing). We release the integration of dust3r [here](https://github.com/rwn17/fin3r_dust3r). You can also find the instructions at [issue#2](https://github.com/Visual-AI/Fin3R/issues/2).
 
 
 ## Interactive Demo
@@ -145,7 +145,7 @@ Thanks to these great repositories: [PoseDiffusion](https://github.com/facebookr
 [DUSt3r](https://github.com/naver/dust3r), [MASt3R](https://github.com/naver/mast3r), [CUT3R](https://cut3r.github.io/),[Monst3r](https://github.com/Junyi42/monst3r), [VGGT](https://github.com/facebookresearch/vggt), [Moge](https://github.com/microsoft/moge), [PyTorch3D](https://github.com/facebookresearch/pytorch3d), [Sky Segmentation](https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing), [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2),  and many other inspiring works in the community.
 
 ## Checklist
-
+- [x] Release the DUSt3R integration and instructions
 - [ ] Release the Evaluation code
 - [ ] Release the training code
 
