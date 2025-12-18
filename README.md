@@ -99,7 +99,7 @@ Following [Pi3 evaluation code](https://github.com/yyfz/Pi3/tree/evaluation). Th
 
 ## Checkpoints
 
-Checkpoints for DUSt3R, MASt3R, CUT3R and VGGT can be found at [Google Drive](https://drive.google.com/drive/folders/1dIy2-BYqYmXqY6_im-fS4UfOczXEG0WL?usp=sharing). We release the integration of dust3r [here](https://github.com/rwn17/fin3r_dust3r). You can also find the instructions at [issue#2](https://github.com/Visual-AI/Fin3R/issues/2).
+Checkpoints for DUSt3R, MASt3R, CUT3R and VGGT can be found at [Google Drive](https://drive.google.com/drive/folders/1dIy2-BYqYmXqY6_im-fS4UfOczXEG0WL?usp=sharing). We release the integration of DUSt3R [here](https://github.com/rwn17/fin3r_dust3r). You can also find the instructions at [issue#2](https://github.com/Visual-AI/Fin3R/issues/2).
 
 
 ## Interactive Demo
