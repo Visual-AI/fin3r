@@ -1,0 +1,9 @@
+{
+  "name": "release version",
+  "source_commit": "2137867a5f2468c7f367ebae3c12a8edf6ecb091",
+  "adapter_sha256": "c56730cd06640cef5db42a7e604f9a3cf0b5a6e6f57f22f01ec7c01872be3ad5",
+  "base_sha256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0",
+  "original_schedule_sha256": "e46dc0cd6ed57f8b698e8629e44148d49176a98c2a93b2be4a47b9e5737bfabc",
+  "schedule_sha256": "8acde77a55dfb564cbe8bab69a65f0757fb39b2895a8acf41e29d361648ac67c",
+  "moge_sha256": "da96b09a0485a3c45a5aa455e67743c8b4efc4dd8437c1f2aa93c2b4303d957f"
+}

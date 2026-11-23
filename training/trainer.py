@@ -376,7 +376,8 @@ class Trainer:
 
     def run_train(self):
         """Runs the main training loop over all epochs."""
-        while self.epoch < self.max_epochs:
+        stop_epoch = min(self.max_epochs, getattr(self.train_dataset, "schedule_epochs", self.max_epochs))
+        while self.epoch < stop_epoch:
             set_seeds(self.seed_value + self.epoch * 100, self.max_epochs, self.distributed_rank)
             
             dataloader = self.train_dataset.get_loader(epoch=int(self.epoch + self.distributed_rank))
@@ -389,7 +390,8 @@ class Trainer:
             del dataloader
             gc.collect()
             torch.cuda.empty_cache()
-            torch.cuda.reset_peak_memory_stats()
+            if torch.cuda.is_available():
+                torch.cuda.reset_peak_memory_stats()
 
             # Run validation at the specified frequency
             # Skips validation after the last training epoch, as it can be run separately.

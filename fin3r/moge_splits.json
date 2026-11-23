@@ -1,0 +1,66 @@
+{
+  "repo": "Ruicheng/monocular-geometry-evaluation",
+  "revision": "574610d77c0cc14d911a1ff46ec529ba934c8960",
+  "datasets": {
+    "DDAD": {
+      "images": 1000,
+      "zip_sha256": "4c02d129bc6bab82a3cdc523a3766746ec4baa0c0bb29389ef3ac77cf4be8392",
+      "index_sha256": "2269e5995fbdd400ddc17b1d10f217825fecce6e8a45aff4e2ece05b0c1504ee",
+      "bytes": 596996821
+    },
+    "DIODE": {
+      "images": 771,
+      "zip_sha256": "3f3047150d309f822fc5dc68aa9a67c7eb3a1eb358c65420e85ffb36274af98a",
+      "index_sha256": "8616f01a27f9c4328bc758a1844c6154ad630a6570becc334a5b10cae0f27996",
+      "bytes": 572740140
+    },
+    "ETH3D": {
+      "images": 454,
+      "zip_sha256": "a72592c238113e46e74cf29ca7df306a6c5c9d050de396cdd257d0ed2783ab10",
+      "index_sha256": "ad6412eb372ad84653f1fca703d2f8e411c385a1472bd0099d9f2d29876af825",
+      "bytes": 1358222402
+    },
+    "GSO": {
+      "images": 1030,
+      "zip_sha256": "a176dde54ec8a26bec7cbb269c6514987dd781cfa8d335e46120b2f25051cace",
+      "index_sha256": "5528254f11e2daec8ce9dd641f5671116d7bc68901a66f59b7d8d91f6bada5e9",
+      "bytes": 81806034
+    },
+    "HAMMER": {
+      "images": 775,
+      "zip_sha256": "d5a92384b112db9d0b468de9700d639f071ff464b5501560f4a33bcfd6a27098",
+      "index_sha256": "ce179da33cfbc0d37871a1adea5d7a25a4babc5684b2d4c3786177bef24281b0",
+      "bytes": 402627213
+    },
+    "KITTI": {
+      "images": 652,
+      "zip_sha256": "598d2c9a722b8acefaad6eddb52dc4586678f5bec21de121587b8f5e62cb001a",
+      "index_sha256": "9ed72a089680d93bb54baea8230661e44afa69b1b1d045b1ab98920107bfe6dd",
+      "bytes": 248798343
+    },
+    "NYUv2": {
+      "images": 654,
+      "zip_sha256": "b84a96bfe26db255d61983c39551dc1be6a00a460e2327a0e4084d663fa4e6ca",
+      "index_sha256": "8e68d11f80031ba6a41552e9865e544c9ac08a8ef2417c3f3254bd43136f9959",
+      "bytes": 245955535
+    },
+    "Sintel": {
+      "images": 1064,
+      "zip_sha256": "5101ae6c3b0b06b6be3e11fc49f54c6bbd8245b8c8806fd857de0ae6f1c6964a",
+      "index_sha256": "3e1a47367734b1483f6baa1405d86008e7f2b0b3fbb9dd720a3fcb81b9c78bac",
+      "bytes": 533712960
+    },
+    "Spring": {
+      "images": 1000,
+      "zip_sha256": "0b03c58f88abc86df6150e097f209f0bdbc86eece10dafe5fd7d30b4b8a7054a",
+      "index_sha256": "05cf8130cc243fa174498dfea668f343a0ace2ad7f37e9cc50b8fd1064c1e6dc",
+      "bytes": 1607913924
+    },
+    "iBims-1": {
+      "images": 100,
+      "zip_sha256": "27346601aa4c157afd3b8b8de1a9682587ca05844591051dfc702e64a5859402",
+      "index_sha256": "a6dcae39574a250232105dd0ee053533e5fcc3d8ec8d0896b926cc945eebc344",
+      "bytes": 40777195
+    }
+  }
+}
