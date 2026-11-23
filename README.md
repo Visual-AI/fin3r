@@ -46,6 +46,6 @@ bash evaluate.sh eth3d    # also accepts dtu, co3d, re10k and monocular
 
 ## Release checkpoint results
 
-These scores use the bundled adapter (`weights/adapter.pth`) and the evaluation protocols in this repository. The monocular average covers eight datasets, including Sintel. The paper reports a seven-dataset average that excludes Sintel. [Evaluation guide](EVALUATION.md) · [Paper, Appendix A.2](https://openreview.net/pdf?id=pZIeK0Xvph)
+These scores use the bundled adapter (`weights/adapter.pth`) and the evaluation protocols in this repository. [Evaluation guide](EVALUATION.md)
 
 The release checkpoint scored 74.74 / 86.45 AUC@30 on CO3D / RealEstate10K. Direct point-map accuracy / completeness errors were 0.26598 / 0.32522 m on ETH3D and 0.98071 / 1.92995 mm on DTU. [Reference scores](benchmarks.json) · [Source notices](NOTICE.md)
